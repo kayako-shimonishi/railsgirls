@@ -23,12 +23,16 @@ ja:
   activerecord:
     models:
       idea: アイディア
+      user: ユーザー
     attributes:
       idea:
         name: 名前
         nick_name: ニックネーム
         description: 自己紹介
         picture: 写真
+      user:
+        email: メールアドレス
+        password: パスワード
     errors:
       messages:
         record_invalid: "バリデーションに失敗しました: %{errors}"
